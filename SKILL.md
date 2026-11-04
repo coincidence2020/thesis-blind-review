@@ -1,6 +1,6 @@
 ---
 name: thesis-blind-review
-description: "Simulate a Chinese master's-degree thesis blind review (盲审): score 学术性/规范性/创新性/完整性 (25% each), apply veto items, output A/B/C grade with weighted total, locatable paragraph-level comments, and a defence recommendation. Use when asked to 盲审、预评审、打分、挑毛病 a 硕士学位论文 before submission. 中文学位论文盲审、预评审、模拟专家打分、修改意见时使用。"
+description: "Simulate a master's-degree thesis blind review (盲审): score 学术性/规范性/创新性/完整性 (25% each), apply veto items, output A/B/C grade with weighted total, locatable paragraph-level comments, and a defence recommendation. Use when asked to 盲审、预评审、打分、挑毛病 a 硕士学位论文 before submission. 学位论文盲审、预评审、模拟专家打分、修改意见时使用。"
 ---
 
 # thesis-blind-review

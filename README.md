@@ -2,7 +2,7 @@
 
 # 🎓 thesis-blind-review
 
-**中文学位论文盲审模拟器 · Agent Skill**
+**学位论文盲审模拟器 · Agent Skill**
 
 让 AI 扮演盲审专家给你的论文打分，<br>但逼它把**每一条意见都指到具体章节**。
 
@@ -13,7 +13,7 @@
 
 `SKILL.md` 格式 · 纯提示词 · 零依赖 · Claude Code / DSH / 任何支持 Agent Skills 的宿主
 
-*An Agent Skill that simulates a Chinese master's thesis blind review — rubric-anchored scoring with paragraph-locatable comments.*
+*An Agent Skill that simulates thesis blind review (盲审) — rubric-anchored scoring with paragraph-locatable comments.*
 
 </div>
 
@@ -106,7 +106,7 @@ thesis-blind-review/
 
 </details>
 
-## 🆚 与"帮我打个分"的区别
+## ⚖️ 与"帮我打个分"的区别
 
 | 常见做法 | 结果 | 本 skill 的做法 |
 |---|---|---|
