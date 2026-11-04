@@ -58,7 +58,7 @@ git clone https://github.com/coincidence2020/thesis-blind-review.git ~/.claude/s
 已经在用 Agent 宿主（Claude Code / DSH 等）的，把这段话直接发给它，克隆、安装、确认一气呵成：
 
 ```text
-帮我装一个 skill：把 https://github.com/coincidence2020/thesis-blind-review.git
+帮我安装这个skill：https://github.com/coincidence2020/thesis-blind-review.git
 克隆到你当前环境的 skills 目录（比如 Claude Code 的 ~/.claude/skills/，
 其他宿主按你自己的约定来）。装好后读一遍 SKILL.md 确认能被加载，
 然后告诉我装好了。
