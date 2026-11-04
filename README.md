@@ -36,9 +36,9 @@
 | 🛠️ | **修改清单** | 「必须修改」「建议修改」分栏，按优先级排序 |
 | 🎓 | **答辩建议** | 同意答辩 / 修改后答辩 / 不同意答辩——对上学校盲审表的真实口径 |
 
-## 🚀 三种用法
+## 🚀 四种用法
 
-**1 · 装成 skill（推荐）**
+**1 · 装成 skill**
 
 ```bash
 # Claude Code
@@ -53,11 +53,22 @@ git clone https://github.com/coincidence2020/thesis-blind-review.git ~/.claude/s
 帮我盲审这篇论文（附全文 / PDF / 截图）
 ```
 
-**2 · 只要提示词**
+**2 · 让你的 AI 自己装**
+
+已经在用 Agent 宿主（Claude Code / DSH 等）的，把这段话直接发给它，克隆、安装、确认一气呵成：
+
+```text
+帮我装一个 skill：把 https://github.com/coincidence2020/thesis-blind-review.git
+克隆到你当前环境的 skills 目录（比如 Claude Code 的 ~/.claude/skills/，
+其他宿主按你自己的约定来）。装好后读一遍 SKILL.md 确认能被加载，
+然后告诉我装好了。
+```
+
+**3 · 只要提示词**
 
 [`assets/prompt.txt`](assets/prompt.txt) 是自包含的完整提示词（约 2.2k 字），粘进任意模型——GPT / Claude / Gemini / DeepSeek / GLM / Kimi——就能用，不需要装 skill。
 
-**3 · 只要细则**
+**4 · 只要细则**
 
 [`references/rubric.md`](references/rubric.md)（12 关注点 + 评分锚点）、[`references/veto-items.md`](references/veto-items.md)（否决项判定）可单独拿去改造成你自己的版本。
 
