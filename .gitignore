@@ -1,0 +1,27 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# 临时文件
+*.tmp
+~$*
+*.bak
+
+# 本地论文与截图（绝不入库）
+*.pdf
+*.docx
+*.doc
+论文/
+paper/
+screenshots/
+
+# 脚本运行产物
+__pycache__/
+*.pyc
+node_modules/
