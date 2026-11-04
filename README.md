@@ -150,12 +150,6 @@ thesis-blind-review/
 > - **上传论文前请自行确认**：是否已送审、是否涉密、学校是否允许使用第三方 AI 服务（详见 [`references/confidentiality.md`](references/confidentiality.md)）
 > - 请勿用于规避学术审查、代写、伪造评审意见
 
-## 🙏 来源与致谢
-
-初始提示词来自小红书用户 **cc（沉迷仔仔版）** 在笔记《Ai论文盲审结果，claude和书生是神》置顶评论区分享的版本（[原帖](https://www.xiaohongshu.com/discovery/item/69dc73340000000023025bc2)）。
-
-本仓库在其基础上做了系统性重写——修掉等级体系矛盾、补总分算法与评分锚点、加入文献真实性处理与信息缺失处理、加入保密检查、补分学科 venue 清单。改动明细见 [ATTRIBUTION.md](ATTRIBUTION.md)。
-
 ## 📄 License
 
 [MIT](LICENSE) © 2026 thesis-blind-review contributors
